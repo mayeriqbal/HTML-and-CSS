@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../aa.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+
+ul {
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 16px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img {
+    float: left;
+    width: 150px;
+    height: auto;
+}
+
+.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title h1 {
+    color: #fff;
+    font-size: 70px;
+}
+
+.button {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.btn {
+    border: 1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: rgb(0, 45, 117);
+    margin-top: 0px;
+    margin-left: -8px;
+    transition: 1s linear ease-in-out;
+}
+
+.main ul li:hover .sub- menu ul{
+    display: block;
+    margin: 6px;
+}
+
+.main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px white;
+    background: transparent;
+    border-radius: 0px  ;
+}

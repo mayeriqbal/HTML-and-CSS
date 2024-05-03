@@ -29,6 +29,7 @@
     width: 30px;
     cursor: pointer;
     margin-left: 40px;
+    margin-right: 10px;
 }
 nav{
     flex: 1;

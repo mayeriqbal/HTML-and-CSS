@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 body{
     background-image: url(img/back.jpg);
     background-position: center;
@@ -14,7 +15,6 @@ body{
     justify-content: center;
     backdrop-filter: blur(3px);
 }
-
 .glass{
     width: 930px;
     height: 520px;
@@ -45,8 +45,8 @@ nav ul li{
 
 nav ul li:hover{
     border-bottom: 2px solid #fff;
-
 }
+
 nav ul li a{
     text-decoration: none;
     font-size: 12px;
@@ -60,7 +60,7 @@ img{
     cursor: pointer;
     margin-top: -7px;
     transition: 0.1s ease;
-}
+} 
 img:hover{
     border: 2px solid #fff;
 }
@@ -82,6 +82,39 @@ h1{
     letter-spacing: 10px;
     opacity: 0.6;
 
-    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000 ,#fff);
+    background-image: linear-gradient(45deg, #000, #fff, #000, #fff, #000);
     background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.icons i{
+    color: #fff;
+}
+
+.icons{
+    display: flex;
+    margin-top: 80px;
+    margin-right: 50px;
+}
+.icons ul{
+    flex: 1;
+    text-align: right;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    }
+    .icons ul li i{
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+.icons ul li i:hover{
+    color: aqua;
 }

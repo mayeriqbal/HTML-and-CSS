@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVANTURE</title>
+    <!-- ====CSS==== -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn2"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor enim saepe illum 
+                    consequuntur voluptas dolores.</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor enim saepe illum 
+                    consequuntur voluptas dolores.</p>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+       <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque minus cum tempora quasi. Nulla minus veniam cum alias mollitia saepe accusamus voluptatem architecto quos.</p>
+        <a href="#" class="ctn">Learn More</a>
+       </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col">
+                <h1>UPCOMING Tours & DESTINATIONS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi numquam consequuntur quibusdam earum illum illo distinctio sit officia voluptas obcaecati pariatur, nam, similique eius in eos rerum cupiditate ratione ipsa.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                <img src="./img/img3.png" alt="">
+                <img src="./img/img4.png" alt="">
+                <img src="./img/img5.png" alt="">
+                <img src="./img/img6.png" alt="">
+            </div></div>
+        </div>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks =Document.querySelector('.nav-links') 
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile.menu')
+        })
+    </script>
+</body>
+</html>

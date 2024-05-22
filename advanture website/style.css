@@ -157,9 +157,11 @@ p{
 .tours .image-gallery{
     flex-wrap: wrap;
     display: flex;
+    width: 100%;
+    align-items: center;
 }
 .image-gallery img{
-     width: 250px;
+     max-width: 300px;
      margin: 10px;
 }
 .row .col img{
@@ -170,6 +172,10 @@ p{
     background: #fc036b;
     border-radius: 30px;
     color: whitesmoke;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #484872;
 }
 
 /* Mobile device */

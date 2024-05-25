@@ -99,6 +99,10 @@ span{
     color: #999;
     margin: 50px 0;
 }
+.btn .primary-btn:hover{
+    background: #fff;
+    color: #f14a60;
+}
 .btn button{
     padding: 7px 30px;
     margin-right: 15px;
@@ -112,6 +116,10 @@ span{
 .btn .primary-btn{
     background: linear-gradient(#fb7381, #f14a60);
     box-shadow: 0 2px 15px rgba(248, 38, 103, 0.26);
+    color: #fff;
+}
+.btn .next-btn:hover{
+    background-color: #f14a60;
     color: #fff;
 }
 .btn{

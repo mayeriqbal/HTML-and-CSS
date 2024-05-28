@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: #000942;
+    padding-left: 11%;
+    padding: 8%;
+    position: relative;
+    background-image: url(images/photo.png);
+    background-size: 38%;
+    background-repeat: no-repeat;
+    background-position: 92% 100%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    border-bottom: 1px solid #bababa;
+    padding-top: 0;
+}
+.top ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.top ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.top button{
+     background: #e91e63;
+     color: #fff;
+     border: 0;
+     outline: 0;
+     border-radius: 30px;
+     padding: 10px 20px;
+     cursor: pointer;
+}
+.side-nav{
+    position: fixed;
+    /* background: #e91e63; */
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    background: linear-gradient(#00bcd4, #e91e63, #3f51b5, #00bcd4);
+    background-size: 100% 500%;
+    background-position: 0 40%;
+}
+.side-nav:hover{
+    animation: backcolor 20s linear infinite reverse;
+}
+@keyframes backcolor {
+       0%{
+        background-position: 0 0%;
+       }
+       100%{
+        background-position: 0 400%;
+       }
+    }
+.side-nav .logo{
+    width: 60%;
+    cursor: pointer;
+}
+.side-nav a{
+    text-decoration: none;
+    color: #fff;
+    transform: rotate(-90deg) translateX(50%);
+    width: max-content;
+}
+.text-box{
+    margin-top: 15%;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 40px;
+}
+.text-box h1{
+    font-weight: 500;
+    font-size: 86px;
+    max-width: 550px;
+    line-height: 95px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.text-box .icon{
+      background: #e91e63;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.text-box .icon img{
+    width: 15px;
+}

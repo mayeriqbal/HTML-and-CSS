@@ -59,6 +59,7 @@ nav ul li a:hover::after{
 }
 .text-box{
     color: #fff;
+    padding-left: 0px;
     position: absolute;
     bottom: 8%;
 }

@@ -39,11 +39,31 @@
         <img src="images/cloud.png" id="clouds">
         <img src="images/plane.png" id="airplane">
         <div id="hotairballon">
-            <img src="images/balloon.png" class="balloon1">
-            <img src="images/balloon.png" class="balloon2">
-            <img src="images/balloon.png" class="balloon3">
-            
+            <img src="images/balloon.png" class="ballon1">
+            <img src="images/balloon.png" class="ballon2">
+            <img src="images/balloon.png" class="ballon3">
         </div>
+
+        <img src="images/pause.png" id="myImg">
     </div>
+    <script>
+        var myImg = document.getElementById("myImg")
+
+        myImg.onclick = function(){
+            if(clouds.style.webkitAnimationPlayState == "paused")
+            {
+                clouds.style.webkitAnimationPlayState = "running";
+                airplane.style.webkitAnimationPlayState = "running";
+                hotairballon.style.webkitAnimationPlayState = "running";
+                myImg.src = 'images/paused.png';
+            }
+            else{
+                clouds.style.webkitAnimationPlayState = "paused";
+                airplane.style.webkitAnimationPlayState = "paused";
+                hotairballon.style.webkitAnimationPlayState = "paused";
+                myImg.src = 'images/play.png';
+            }
+        }
+    </script>
 </body>
 </html>

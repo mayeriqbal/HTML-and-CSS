@@ -106,24 +106,87 @@ nav{
     width: 100%;
     position: absolute;
     left: 0;
-    top: 100px;
+    top: -100px;
+    animation: clouds 5s linear infinite;
+}
+@keyframes clouds{
+    0%{
+top: -100px;
+}
+20%{
+top: 100px;
+ }
+80%{
+top: 100px;
+ }
+100%{
+top: -100px;
+}
 }
 #airplane{
     width: 200px;
     position: absolute;
     top: 180px;
-    left: 250px;
+    left: -250px;
     z-index: 2;
+    animation: fly 5s linear infinite;
+}
+@keyframes fly{
+    0%{
+left: -250px;
+}
+20%{
+left: 250px;
+ }
+80%{
+left: 250px;
+ }
+100%{
+left: 110%;
+
+}
 }
 #hotairballon{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 700px;
     position: absolute;
-    bottom: 100px;
+    bottom: -450px;
     left: 50%;
     transform: translateX(-50%);
+    animation: hotairballon 5s linear infinite;
+}
+@keyframes hotairballon{
+    0%{
+bottom: -450px;
+}
+20%{
+bottom: 100px;
+ }
+80%{
+bottom: 100px;
+ }
+100%{
+bottom: -450px;
+
+}
 }
 .ballon1{
     width: 150px;
     opacity: 0.4;
+}
+.ballon2{
+    width: 350px;
+}
+.ballon3{
+    width: 180px;
+    opacity: 0.4;
+}
+#myImg{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
 }

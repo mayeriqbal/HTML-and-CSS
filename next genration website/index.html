@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <div class="left-box">
+            <div class="wrapper">
+                <h1 class="logo">logo</h1>
+                <div class="search-box">
+                    <img src="images/search.png" alt="">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="vertical-line"></div>
+                <ul>
+                    <li><a href="#">PRODUCTION</a></li>
+                    <li><a href="#">FACILITY</a></li>
+                    <li><a href="#">MECHANISM</a></li>
+                    <li><a href="#">OUR TEAM</a></li>
+                    <li><a href="#">OUR IDEAS</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="right-box"> 
+            <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">TECHNOLOGY</a></li>
+                <li><a href="#">PRODUCTS</a></li>
+            </ul>
+        </nav>
+        <h2>THE NEXT<br>GENRATION</nav></h2>
+        <div class="robot">
+            <img src="images/robo.png" alt="">
+            <h1>ROBOTICS</h1>
+            <div class="features">
+                <div>
+                    <small>WATCH PREVIEW</small>
+                    <img src="images/play.png" alt="">
+                </div>
+                <div>
+                    <small>THE MAKING</small>
+                    <img src="images/settings.png" alt="">
+                </div>
+                <div>
+                    <small>DOWNLOAD PDF</small>
+                    <img src="images/download.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="circle"></div>
+        <div class="pagination">
+            <ul>
+                <li class="active"><a href="#">01</a></li>
+                <li><a href="#">02</a></li>
+                <li><a href="#">03</a></li>
+                <li><a href="#">04</a></li>
+                <li><a href="#">05</a></li>
+            </ul>
+        </div>
+        <img src="images/volume.png" class="volume">
+        </div>
+    </div>
+    <div class="smallCursor"></div>
+        
+    <script>
+        var smallCursor = document.querySelector(".smallCursor");
+
+        document.onmousemove = function(e){
+          smallCursor.style.left = (e.pageX - 5) + "px"
+          smallCursor.style.top = (e.pageY - 5) + "px"
+        }
+
+    </script>
+</body>
+</html>

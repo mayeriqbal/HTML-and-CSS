@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#686868, #179) purple;
+}
+.navbar{
+    height: 20;
+    background-color: transparent;
+}
+.logo{
+  float: left;
+}

@@ -7,7 +7,9 @@
 .hero{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(#686868, #179) purple;
+    background: linear-gradient(#686868, #179);
+    align-items: center;
+    justify-content: center;
 }
 .navbar{
     height: 20;
@@ -15,4 +17,48 @@
 }
 .logo{
   float: left;
+  margin-top: 20px;
+  color: white;
+}
+nav ul li{
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+    padding-left: px;
+}
+nav ul li a{
+    margin-left: 40px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+
+}
+.content{
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
+.content h1{
+    font-size: 50px;
+    color: wheat;
+    font-weight: 700;
+}
+.content p{
+    font-size: 16px;
+    color: wheat;
+    text-align: center;
+        margin-left: 50%;
+}
+.content button{
+    background: transparent;
+    padding: 10px 30px;
+    margin-left: 50%;
+    border: 2px solid wheat;
+    color: wheat;
+
+}
+.content button:hover{
+    background-color: wheat;
+    color: #179;
 }

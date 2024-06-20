@@ -29,7 +29,7 @@ header {
   z-index: 1000;
   width: 100%;
   background: transparent;
-  padding: 27px 17%;
+  padding: 27px 7%;
   display: flex;
   justify-content: space-between;
   transition: all 0.5s ease;
@@ -46,7 +46,7 @@ span {
 .navbar {
   display: flex;
   transition: all 0.5s ease;
-  margin-top: 15px
+  margin-top: 12px
 }
 
 
@@ -63,7 +63,6 @@ span {
 .h-right{
     display: flex;
     align-items: center;
-    margin-top: 15px;
 }
 .h-right a:first-child{
    color: var(--text-color);
@@ -82,7 +81,7 @@ span {
     color: var(--main-color);
     transform: translateY(-3px);
 }
-#menu-icono{
+#menu-icon{
     color: var(--text-color);
     font-size: 30px;
     cursor: pointer;
@@ -90,7 +89,7 @@ span {
 }
 
 section{
-    padding: 70px 17% 60px;
+    padding: 180px 17% 60px;
 }
 .home{
     position: relative;
@@ -113,8 +112,105 @@ section{
   font-family: "Open sans", sans-serif;
 }
 .home-text h1{
-    font-size: var(--h1-font);
+    font-size: 4rem;
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 20px;
+}
+.home-text p{
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  margin-bottom: 35px;
+}
+.btn{
+  display: inline-block;
+  padding: 13px 40px;
+  background: var(--main-color);
+  color: var(--bg-color);
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: all .50s ease;
+  cursor: pointer;
+}
+.btn:hover{
+  transform: translateX(10px);
+  border: 2px solid var(--text-color);
+  background: transparent;
+  color: var(--text-color);
+}
+header.sticky{
+  padding: 8px 17%;
+  background: transparent;
+  backdrop-filter: blur(35px);
+}
+.feature-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+}
+.row-img{
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.row-img img{
+  width: 100%;
+  display: block;
+  transition: transform 0.7s ease;
+}
+.row-img img:hover{
+  transform: scale(1.2);
+}
+.feature-content h4{
+  line-height: 3;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all .50s ease;
+}
+.feature-content h4:hover{
+  color: var(--main-color);
+}
+.holiday{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 9rem;
+}
+.holiday-img img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.holiday-text h5{
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px
+}
+.holiday-text h2{
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.holiday-text p{
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  margin-bottom: 35px;
+
 }

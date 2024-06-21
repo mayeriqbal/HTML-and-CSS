@@ -46,85 +46,89 @@ span {
 .navbar {
   display: flex;
   transition: all 0.5s ease;
-  margin-top: 12px
+  margin-top: 12px;
 }
 
-
-.navbar  a {
+.navbar a {
   color: var(--text-color);
   font-size: var(--p-font);
   font-weight: 500;
   margin: 15px 10px;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
 }
-.navbar a:hover{
-   color: var(--main-color);
+.navbar a:hover {
+  color: var(--main-color);
 }
-.h-right{
-    display: flex;
-    align-items: center;
+.h-right {
+  display: flex;
+  align-items: center;
 }
-.h-right a:first-child{
-   color: var(--text-color);
-   font-size: var(--p-font);
-   margin-right: 20px;
+.h-right a:first-child {
+  color: var(--text-color);
+  font-size: var(--p-font);
+  margin-right: 20px;
 }
-.h-right a{
-    vertical-align: middle;
-    font-size: 20px;
-    color: var(--text-color);
-    margin-right: 18px;
-    margin-left: 5px;
-    transition: all .50s ease;
+.h-right a {
+  vertical-align: middle;
+  font-size: 20px;
+  color: var(--text-color);
+  margin-right: 18px;
+  margin-left: 5px;
+  transition: all 0.5s ease;
 }
-.h-right a:hover{
-    color: var(--main-color);
-    transform: translateY(-3px);
+.h-right a:hover {
+  color: var(--main-color);
+  transform: translateY(-3px);
 }
-#menu-icon{
-    color: var(--text-color);
-    font-size: 30px;
-    cursor: pointer;
-    z-index: 1001;
+#menu-icon {
+  color: var(--text-color);
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 1001;
 }
 
-section{
-    padding: 180px 17% 60px;
+section {
+  padding: 180px 17% 60px;
 }
-.home{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(to left, rgba(0,0,0,0.6),rgba(0,0,0,0.3)), url(img/Background.png);
-    background-size: cover;
-    background-position: center bottom;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+.home {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(img/Background.png);
+  background-size: cover;
+  background-position: center bottom;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
-.home-text h5{
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    color: var(--main-color);
+.home-text h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--main-color);
   font-family: "Open sans", sans-serif;
 }
-.home-text h1{
-    font-size: 4rem;
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 20px;
+.home-text h1 {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 20px;
 }
-.home-text p{
+.home-text p {
   font-size: var(--p-font);
   font-weight: 500;
   line-height: 30px;
   color: #ffffffab;
   margin-bottom: 35px;
 }
-.btn{
+.btn {
   display: inline-block;
   padding: 13px 40px;
   background: var(--main-color);
@@ -133,28 +137,28 @@ section{
   font-weight: 600;
   border: 2px solid transparent;
   border-radius: 5px;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   transform: translateX(10px);
   border: 2px solid var(--text-color);
   background: transparent;
   color: var(--text-color);
 }
-header.sticky{
+header.sticky {
   padding: 8px 17%;
   background: transparent;
   backdrop-filter: blur(35px);
 }
-.feature-content{
+.feature-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, auto));
   align-items: center;
   text-align: center;
   gap: 3rem;
 }
-.row-img{
+.row-img {
   overflow: hidden;
   width: 100px;
   height: 100px;
@@ -163,81 +167,103 @@ header.sticky{
   border-radius: 50%;
   cursor: pointer;
 }
-.row-img img{
+.row-img img {
   width: 100%;
   display: block;
   transition: transform 0.7s ease;
 }
-.row-img img:hover{
+.row-img img:hover {
   transform: scale(1.2);
 }
-.feature-content h4{
+.feature-content h4 {
   line-height: 3;
   font-size: 17px;
   font-weight: 500;
   cursor: pointer;
-  transition: all .50s ease;
+  transition: all 0.5s ease;
 }
-.feature-content h4:hover{
+.feature-content h4:hover {
   color: var(--main-color);
 }
-.holiday{
+.holiday {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
   gap: 9rem;
 }
-.holiday-img img{
+.holiday-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
 }
-.holiday-text h5{
+.holiday-text h5 {
   font-size: 22px;
   font-weight: 600;
   color: var(--main-color);
   text-transform: uppercase;
   letter-spacing: 6px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
-.holiday-text h2{
+.holiday-text h2 {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 25px;
 }
-.holiday-text p{
+.holiday-text p {
   font-size: var(--p-font);
   font-weight: 500;
   line-height: 30px;
   color: #ffffffab;
   margin-bottom: 35px;
-
 }
-.center-text{
+.center-text {
   text-align: center;
 }
-.center-text h2{
+.center-text h2 {
   font-size: var(--h2-font);
   font-weight: 800;
 }
-.tour-content{
+.tour-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   align-items: center;
   gap: 3rem;
   margin-top: 5rem;
-} 
-.box{
+}
+.box {
   position: relative;
 }
-.box img{
+.box img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
   filter: brightness(70%);
-  transition: all .3s cubic-bezier(.499,.05,.55,.95);
+  transition: all 0.3s cubic-bezier(0.499, 0.05, 0.55, 0.95);
   will-change: filter;
   display: block;
+}
+.box h6 {
+  position: absolute;
+  left: 25px;
+  bottom: 95px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.box h4 {
+  position: absolute;
+  left: 25px;
+  bottom: 65px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.box img:hover{
+  filter: brightness(90%) hue-rotate(50deg);
+  transform: scale(1.04);
+  cursor: pointer;
+}
+.center-btn{
+  text-align: center;
+  margin-top: 4rem;
 }

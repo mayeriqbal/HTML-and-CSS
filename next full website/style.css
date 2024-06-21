@@ -214,3 +214,30 @@ header.sticky{
   margin-bottom: 35px;
 
 }
+.center-text{
+  text-align: center;
+}
+.center-text h2{
+  font-size: var(--h2-font);
+  font-weight: 800;
+}
+.tour-content{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+} 
+.box{
+  position: relative;
+}
+.box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  filter: brightness(70%);
+  transition: all .3s cubic-bezier(.499,.05,.55,.95);
+  will-change: filter;
+  display: block;
+}

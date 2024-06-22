@@ -267,3 +267,63 @@ header.sticky {
   text-align: center;
   margin-top: 4rem;
 }
+.Culture {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 9rem;
+}
+.Culture-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.Culture-text h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-bottom: 20px;
+}
+.Culture-text h2 {
+  color: var(--text-color);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+.Culture-text p {
+  font-size: var(--p-font);
+  font-weight: 500;
+  line-height: 30px;
+  color: #ffffffab;
+  margin-bottom: 35px;
+}
+.newsletter-content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+.newsletter-text h2{
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.newsletter-text p{
+  font-size: var(--p-font);
+  font-weight: 500;
+  color: #ffffffab;
+}
+.newsletter-content form{
+  display: grid;
+  grid-template-columns: 1fr 0.4fr;
+  gap: 1rem;
+}
+.newsletter-content form input:first-child{
+  padding: 15px;
+  background-color: #202020;
+  font-size: var(--p-font);
+  color: var(--text-color);
+}

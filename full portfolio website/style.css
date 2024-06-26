@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    font-family: "Inter" sans-serif;
 }
 :root{
     ---text-color: #fff;
@@ -16,4 +17,38 @@
     --h1-font: 4.5rem;
     --h2-font: 2.9rem;
     --p-font: 1rem;
+}
+body{
+    color: var(---text-color);
+    background: var(--bg-color);   
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 16%;
+    transition: all .50s ease;
+}
+.logo{
+    font-size: 36px;
+    color: var(---text-color);
+    font-weight: 600;
+}
+span{
+    color: var(--main-color);
+}
+.navlist{
+    display: flex;
+}
+.navlist a{
+    font-size: var(--p-font);
+    font-weight: 500;
+    color: var(--other-color);
+    margin-left: 40px;
+    transition: all .50s ease;
 }

@@ -87,10 +87,9 @@ section{
 .hero{
     height: 100vh;
     width: 100%;
-    background: url(mayer.png);
-    background-position: top right;
-    background-size: cover;
-    justify-content: flex-start;
+}
+.main-content{
+    margin-top: 80px;
 }
 .main-content h4{
     font-size: 1.6rem;
@@ -158,4 +157,12 @@ section{
 .btn2:hover{
     background: var(--main-color);
     color: var(--bg-color);
+}
+.img-col{
+    position: absolute;
+    top: 10%;
+    left: 55%;
+}
+.img-col img{
+    width: 170%;
 }

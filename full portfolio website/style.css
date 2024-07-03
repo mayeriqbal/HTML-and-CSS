@@ -397,10 +397,10 @@ form .send-btn:hover{
     height: 45px;
     border-radius: 50%;
     color: var(---text-color);
-    font-size: 27px;
+    font-size: 27px;   
 }
 
-@media (max-widht: 1700px){
+@media (max-width: 1700px){
     header{
         padding: 20px 8%;
     }
@@ -418,7 +418,7 @@ form .send-btn:hover{
     }
 }
 
-@media (max-widht: 1380px){
+@media (max-width: 1380px){
     header{
         padding: 20px 5%;
     }
@@ -437,7 +437,7 @@ form .send-btn:hover{
     }
 }
 
-@media (max-widht: 1290px){
+@media (max-width: 1290px){
     .box{
         padding: 40px 40px 46px;
     }
@@ -454,7 +454,7 @@ form .send-btn:hover{
     }
 }
 
-@media (max-widht: 1240px){
+@media (max-width: 1240px){
     .about{
         grid-template-columns: 1fr;
         gap: 2rem;

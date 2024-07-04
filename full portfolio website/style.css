@@ -404,12 +404,15 @@ form .send-btn:hover{
     header{
         padding: 20px 8%;
     }
+    body{
+        padding: 0;
+    }
     header .sticky{
         padding: 14px 8%;
     }
-    section{
+    /* section{
         padding: 90px 8% 80px;
-    }
+    } */
     .footer{
         padding: 18px 8%;
     }
@@ -425,9 +428,9 @@ form .send-btn:hover{
     header .sticky{
         padding: 14px 5%;
     }
-    section{
+    /* section{
         padding: 90px 5% 80px;
-    }
+    } */
     .footer{
         padding: 18px 5%;
     }
@@ -459,6 +462,16 @@ form .send-btn:hover{
         grid-template-columns: 1fr;
         gap: 2rem;
         text-align: center;
+    }
+
+    .about-img-img{
+        text-align: center;
+        width: 100%;
+        height: 400px; 
+        max-width: 400px;
+        border-radius: 50%;
+        object-fit:cover;
+        margin: 0 auto;
     }
     :root{
         --h1-font: 4rem;

@@ -145,6 +145,14 @@ nav ul li a{
     padding: 10px;
     border-bottom: 2px solid #fff;
 }
+.smallCursor{
+    height: 10px;
+    width: 10px;
+    background: #3fc9f5;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+}
 .pagination{
     position: absolute;
     left: 60px;
@@ -159,12 +167,4 @@ nav ul li a{
     position: absolute;
     right: 4%;
     bottom: 4%;
-}
-smallCursor{
-    height: 10px;
-    width: 10px;
-    background: #3fc9f5;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
 }
